@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #c6c6c6;
+}
+
+header {
+    background-color: #306bf4;
+    padding: 15px 0;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+header .counter {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .counter input {
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: transparent;
+    width: 250px;
+}
+
+main {
+    padding: 60px 0;
+}
+
+main .content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 50px;
+    border: 1px solid;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.paragraph {
+    line-height: 1.8;
+}
+
+.buttons {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #306bf4;
+    padding: 10px 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.buttons button {
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 767px) {
+    main .content {
+    padding: 20px 20px;
+        width: 90%;
+    }
+    .buttons {
+        border-radius: 0;
+        bottom: 0;
+        width: 100%;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+}
+}
+
+br {
+    content: "";
+    display: block;
+    margin: 15px;
+}
